@@ -1,0 +1,272 @@
+/* urbanist-regular - latin */
+@font-face {
+   font-family: 'Urbanist';
+   font-style: normal;
+   font-weight: 400;
+   src: url('../fonts/urbanist-v10-latin-regular.eot'); /* IE9 Compat Modes */
+   src: local(''),
+        url('../fonts/urbanist-v10-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/urbanist-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/urbanist-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/urbanist-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/urbanist-v10-latin-regular.svg#Urbanist') format('svg'); /* Legacy iOS */
+ }
+
+  /* ============================ custom css  start ======================= */
+  *{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+
+  }
+  ul,ol{
+     list-style: none;
+     padding: 0;
+     margin: 0;
+  }
+  a{
+     text-decoration: none;
+     color: black;
+     text-transform: capitalize;
+  }
+
+  body{
+      font-family: 'Urbanist';
+      font-weight: 900;
+  }
+
+  :root{
+      --mainGreen:#4E7661;
+      --backgroundEffectColor:#EEEEEE;
+  }
+  .padding_top{
+    padding-top: 50px;
+  }
+  @media screen and (min-width:720px) {
+      .padding_top{
+          padding-top: 100px;
+        }
+    }
+    
+    .padding_bottom{
+      padding-bottom: 50px;
+    }
+    @media screen and (min-width:720px) {
+        .padding_bottom{
+            padding-bottom: 100px;
+          }
+      }
+  p{
+    font-size: 15px;
+  }
+  .margin_top_bottom{
+    margin: 50px 0px;
+  }
+  @media screen and (min-width:720px) {
+    .margin_top_bottom{
+        margin: 100px 0px;
+      }
+  }
+
+  .bg_color{
+    background-color: var(--backgroundEffectColor);
+  }
+  /* ============================ custom css  End ======================= */
+  /* ============================ header ========================  */
+  .bg-theme{
+      background-color: #EDF1F0;
+  }
+  .head-mid{
+      color: var(--mainGreen);
+      font-size: 13px;
+
+  }
+  .social-dropdown button{
+      font-size: 13px;
+  }
+  .social-dropdown button:focus{
+      border: none !important;
+  }
+  .txt_color{
+    color: var(--mainGreen);
+  }
+  .txt1_color:hover{
+    color: var(--mainGreen);
+  }
+  
+  /* ============================ header ========================  */
+
+  /* ========================= slider one  is start ================== */
+  .content{
+    position: absolute;
+    top: 50%;
+    width: 90%;
+    left: 5%;
+    transform: translateY(-50%);
+  }
+  .content_h1_2{
+    font-size: 20px;
+  }
+  @media screen and (min-width:575px) {
+    .content_h1_2{
+        font-size: 40px;
+    }
+ }
+  @media screen and (min-width:700px) {
+        .content_h1_2{
+            font-size: 68px;
+        }
+  }
+  /* ========================= slider one  is end ================== */
+
+
+  /* ==================== slider two is start ======================== */
+   #slider_2.owl-theme .owl-nav{
+        margin-top: 0;
+        position: absolute;
+        width: 100%;
+        top: -20%;
+        display: none;
+   }
+   #slider_2.owl-carousel .owl-nav button.owl-prev{
+        position: absolute;
+        right: 20%;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        border: 2px solid rgba(0, 0, 0, 0.1);
+   }
+   #slider_2.owl-carousel .owl-nav button.owl-next{
+        position: absolute;
+        right: 10%;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        border: 2px solid rgba(0, 0, 0, 0.1);
+   }
+   #slider_2.owl-carousel .owl-nav button.owl-prev:hover,
+   #slider_2.owl-carousel .owl-nav button.owl-next:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .3) ,-5px -5px 20px rgba(0, 0, 0, .1) ;
+    background-color: white;
+    color: black;
+   }
+
+   @media screen and (min-width:770px) {
+    #slider_2.owl-theme .owl-nav{
+        display: block;
+    }
+   }
+   .content_2 del{
+        font-size: 13px;
+   }
+   .content_2 i{
+    color: var(--mainGreen);
+    font-size: 12px;
+   }
+   .section_2 .icon_2{
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: .3s;
+   }
+   .section_2 .icon_2 i{
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    color: black;
+    padding: 10px;
+    border-radius: 50%;
+   }
+   .section_2 .item:hover .icon_2{
+    opacity: 1;
+    right: 10%;
+   }
+   .section_2 .icon_2 i:hover{
+    background-color: black;
+    color: white;
+   }
+   /* ==================== slider two is end ======================== */
+   /* ========================== section 3 is start =================  */
+   .section_3{
+       background-color: var(--backgroundEffectColor);
+    }
+    .section_3 a{
+      box-shadow: rgba(0, 0, 0,.9)!important;
+      border: 1px solid rgba(0, 0, 0,.1)!important;
+    }
+    .section_3 a:hover{
+      background-color: black!important;
+      color: white !important;
+    }
+    /* ========================== section 3 is end =================  */
+
+    /* ==================== section 4 is start ==================== */
+    .section_4 .img{
+      overflow: hidden;
+    }
+    .section_4 .img img{
+      transition: .3s;
+      width: 100%;
+    }
+    .section_4 .img:hover img{
+      transform: scale(1.1);
+    }
+    .section_4 .btn:hover{
+      background-color: black;
+      color: white;
+    }
+ 
+   
+    /* ==================== section 4 is start ==================== */
+
+    /* ========================== section 5 start ====================== */
+    .section_5{
+      background-color: var(--backgroundEffectColor);
+    }
+    .section_5 .discount{
+      background-color: var(--mainGreen);
+    }
+    .clock{
+      color: var(--mainGreen);
+    }
+    /* ========================== section 5 end ====================== */
+
+    /* ======================== section 8 start =============================== */
+    .section_8 .img_hover1,
+    .section_8 .img_hover
+    {
+      overflow: hidden;
+    }
+    .section_8 .img_hover1 {
+      position: relative;
+    }
+    .section_8 .img_hover1 img{
+      transition: .3s;
+    }
+    .section_8 .img_hover1:hover img{
+      transform: scale(1.2);
+    }
+    .section_8 .img_hover1::after{
+      content: '';
+      width: 20%;
+      height: 150%;
+      background-color: rgba(0, 0, 0,.9);
+      opacity: .3;
+      position: absolute;
+      top: -50%;
+      left: 0%;
+      transform: rotate(45deg) translate(-200%) ;
+    }
+    .section_8 .img_hover1:hover::after{
+      content: '';
+      width: 20%;
+      height: 120%;
+      opacity: .3;
+      position: absolute;
+      top: -50%;
+      left: 0%;
+      transition: 1s;
+      transform: rotate(45deg) translate(1000%);
+    }
+    
+    /* ======================== section 8 end =============================== */
